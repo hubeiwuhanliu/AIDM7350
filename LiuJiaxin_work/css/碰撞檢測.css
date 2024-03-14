@@ -1,0 +1,61 @@
+* {
+  user-select: none;
+}
+
+.flex {
+  display: flex;
+}
+
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  pointer-events: none; /* 不会接收到鼠标事件 */ 
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  width: 940px;
+  height: 468px;
+  padding: 10px;
+  box-shadow: 0 0 8px #222;
+  border-radius: 6px;
+}
+
+.container ul {
+  /* 自動換行 */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  height: 100%;
+}
+
+.container ul li {
+  overflow: hidden;
+  box-shadow: 0 0 2px #ccc;
+  border-radius: 3px;
+  transition: .2s linear;
+}
+
+.container ul li.active {
+  z-index: 999;
+  box-shadow: 0 0 8px #222;
+  transition: none;
+}
+
+.container ul li.collision {
+  transform: scale(1.05);
+}
