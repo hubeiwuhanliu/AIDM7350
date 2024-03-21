@@ -1,0 +1,23 @@
+{
+  "id": "4430008",
+  "name": "橙劵lian'xi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3971219",
+      "name": "向下箭頭",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e78d",
+      "unicode_decimal": 59277
+    },
+    {
+      "icon_id": "3971223",
+      "name": "向右箭頭",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e78e",
+      "unicode_decimal": 59278
+    }
+  ]
+}

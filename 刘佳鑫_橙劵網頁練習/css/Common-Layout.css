@@ -1,0 +1,140 @@
+html, body {
+  width: 100%;
+}
+
+.w1160 {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+html {
+  font: 14px/1.5 \5FAE\8F6F\96C5\9ED1;
+  background-color: #fefefe;
+}
+
+.lh-1 {
+ line-height: 1;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.ls2 {
+  letter-spacing: 2px;
+}
+
+/* 字體大小 */ 
+.fz12 {
+  font-size: 12px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz18 {
+  font-size: 18px;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+.fz22 {
+  font-size: 22px;
+}
+
+.fz48 {
+  font-size: 48px;
+}
+/* 顔色 */ 
+.c333 {
+  color: #333;
+}
+
+.cfff {
+  color: #fff;
+}
+
+.c7e8088 {
+  color: #7e8088;
+}
+
+.cff7200 {
+  color: #ff7200;
+}
+
+.cd2d2d2 {
+  color: #d2d2d2;
+}
+
+.cc8c8c8 {
+  color: #c8c8c8;
+}
+
+.bc22212f {
+  background-color: #22212f;
+}
+
+.ccecece {
+  color: #cecece;
+}
+
+/* 靈活佈局設置 */ 
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-betteen {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* a */ 
+a:hover {
+  text-decoration: none;
+}
+
+/* padding */
+.pb18 {
+  padding-bottom: 18px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.mt14 {
+  margin-top: 14px;
+}
+
+.ml7 {
+  margin-left: 7px;
+}
+
+/* height */ 
+.h14 {
+  height: 14px;
+}
+
+/* 行高 */ 
+.lh24 {
+  line-height: 24px;
+}

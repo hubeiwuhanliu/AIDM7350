@@ -1,0 +1,94 @@
+
+.cj-header-warp {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 36px;
+  padding: 22px 0;
+}
+
+.cj-head-nav ul li {
+  display: inline-block;
+  line-height: 32px;
+  margin-right: 46px;
+}
+
+.icon:after {
+  position: absolute;
+  content: "";
+  font-family: "iconfont" !important;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:after {
+  top: 24px;
+  right: 465px;
+  content: "\e78d";
+  transition: .2s linear;
+}
+
+li.target-list:hover   .icon-arrow-down:after {
+  transform: rotate(180deg);
+  color: #c8c8c8;
+}
+
+
+/* 隱藏爬蟲文本 */ 
+.hidden-text {
+  text-indent: -9999;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.cj-head-nav ul li a {
+  color: #c8c8c8;
+}
+
+ul li a:hover {
+  color: #fff;
+}
+
+.second-class-menu {
+  position: absolute;
+}
+
+/* 二級菜單效果 */ 
+.second-class-menu {
+  overflow: hidden;
+  position: absolute;
+  top: 72px;
+  left: 600px;
+  max-height: 0;
+  visibility: hidden;
+  border-radius: 4px;
+  transition: .3s linear;
+}
+
+.second-class-menu li {
+  width: 124px;
+  height: 44px;
+  background-color: rgba(0 ,0, 0, .3);
+  text-align: center;
+}
+
+.second-class-menu li a{
+  line-height: 44px;
+}
+
+.second-class-menu li a:hover {
+  color: #ff7200;
+}
+
+
+li.target-list:hover .second-class-menu {
+  visibility: visible;
+  max-height: 300px;
+}
+
